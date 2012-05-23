@@ -1,0 +1,15 @@
+This project is too make a small menu for the nokia 5110 lcd for the arduino.
+pin output/input is defined in the source code. this project is open source
+so feel free to use it but please give some credit if you do. and definitly 
+give credit to those that deserve it.--------------------------------------
+
+requirements* (they can be changed)
+3.3 v power for lcd
+2 tact switches or other buttons( 1 for movement through menu and 1 for slecting the options)
+arduino 
+nokia 5110 lcd or 3110
+10k potentiometer
+wire
+
+*tip its neccesary to connect the 3.3v from the arduino to the lcd but you should use the 5v for 
+the switches because it drain power causing the lcd to black out.
