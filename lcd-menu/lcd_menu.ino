@@ -100,5 +100,5 @@ void loop()
     
     
   }
-  //Serial.println(“#S|CMD|[]# “)
+  
 }
