@@ -13,4 +13,4 @@ wire
 2 1ok resistors
 
 *tip its neccesary to connect the 3.3v from the arduino to the lcd but you should use the 5v for 
-the switches because it drain power causing the lcd to black out.
+the switches because it drains power causing the lcd to black out.
