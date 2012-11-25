@@ -53,23 +53,3 @@ void Moto::mStop()
   digitalWrite(_mrb,0);
   digitalWrite(_mlb,0);
 }
-void Moto::R180(int spd)
-{
-  int tm = spd/17;
-  digitalWrite(_mrf,spd);
-  digitalWrite(_mlf,0);
-  digitalWrite(_mrb,0);
-  digitalWrite(_mlb,spd);
-  delay(tm);
-  
-}
-void Moto::R360(int spd)
-{
-  int tm = spd/8.5;
-  digitalWrite(_mrf,spd);
-  digitalWrite(_mlf,0);
-  digitalWrite(_mrb,0);
-  digitalWrite(_mlb,spd);
-  delay(tm);
-  
-}

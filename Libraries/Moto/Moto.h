@@ -14,8 +14,7 @@ class Moto
       void left(int spd);
       void right(int spd);
       void mStop();
-      void R180(int spd);
-      void R360(int spd);
+      
   private:
       int _mrf;
       int _mlf;
