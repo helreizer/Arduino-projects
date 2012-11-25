@@ -33,15 +33,15 @@ void Moto::reverse(int spd)
 
 void Moto::left(int spd)
 {
-  digitalWrite(_mrf,spd);
-  digitalWrite(_mlf,0);
-  digitalWrite(_mrb,0);
-  digitalWrite(_mlb,spd);
+  digitalWrite(_mrf,0);
+  digitalWrite(_mlf,spd);
+  digitalWrite(_mrb,spd);
+  digitalWrite(_mlb,0);
 }
 void Moto::right(int spd)
 {
-  digitalWrite(_mrf,0);
-  digitalWrite(_mlf,spd);
+  digitalWrite(_mrf,spd);
+  digitalWrite(_mlf,0);
   digitalWrite(_mrb,0);
   digitalWrite(_mlb,spd);
 }
@@ -56,8 +56,8 @@ void Moto::mStop()
 void Moto::R180(int spd)
 {
   int tm = spd/17;
-  digitalWrite(_mrf,0);
-  digitalWrite(_mlf,spd);
+  digitalWrite(_mrf,spd);
+  digitalWrite(_mlf,0);
   digitalWrite(_mrb,0);
   digitalWrite(_mlb,spd);
   delay(tm);
@@ -66,8 +66,8 @@ void Moto::R180(int spd)
 void Moto::R360(int spd)
 {
   int tm = spd/8.5;
-  digitalWrite(_mrf,0);
-  digitalWrite(_mlf,spd);
+  digitalWrite(_mrf,spd);
+  digitalWrite(_mlf,0);
   digitalWrite(_mrb,0);
   digitalWrite(_mlb,spd);
   delay(tm);
